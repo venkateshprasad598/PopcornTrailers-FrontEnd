@@ -1,0 +1,53 @@
+.row {
+  margin-left: 10px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  margin-top: 1.5rem;
+}
+
+.title {
+  text-align: center;
+}
+
+.title__underline {
+  height: 5px;
+  width: 120px;
+  background: linear-gradient(to left, red, #111);
+  margin: 5px auto;
+}
+.row_posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
+
+.row_poster {
+  max-height: 95px;
+  object-fit: contain;
+  margin-right: 10px;
+  transition: transform 500ms;
+}
+.row_poster:hover {
+  transform: scale(1.08);
+}
+
+.row_posterLarge {
+  max-height: 250px;
+  margin-left: 0.1rem;
+}
+
+.row_posterLarge:hover {
+  transform: scale(1.09);
+}
+
+.row_title {
+  color: White;
+  font-weight: 400;
+  margin-top: 2px;
+  text-align: center;
+}

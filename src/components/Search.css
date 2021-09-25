@@ -1,0 +1,59 @@
+.search {
+  text-align: center;
+  margin-top: 3rem;
+  color: red;
+  min-height: 93vh;
+}
+.searchMovies {
+  padding-top: 1rem;
+  font-size: 2.3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 3rem;
+  justify-content: space-between;
+}
+
+.input__search {
+  width: 300px;
+}
+.input__button {
+  margin-top: 10px;
+  width: 100px;
+  background-color: rgb(228, 4, 4);
+  border-radius: 3px;
+  border: none;
+  padding: 5px;
+  color: white;
+  font-weight: 700;
+}
+.input__button:hover {
+  background-color: rgb(194, 6, 6);
+  color: white;
+}
+
+.posters {
+  padding-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: auto 10px;
+  width: 70%;
+}
+
+.search__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.poster__one {
+  margin: 0.5rem;
+}

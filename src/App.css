@@ -1,0 +1,13 @@
+* {
+  margin: 0px;
+}
+
+.App {
+  background-color: #111;
+  /* background-color: white; */
+  color: white;
+}
+
+Row {
+  margin-top: 2rem;
+}
