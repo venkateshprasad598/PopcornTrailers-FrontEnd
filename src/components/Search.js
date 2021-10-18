@@ -37,6 +37,7 @@ const Search = () => {
               className="input__search"
               onChange={(e) => setSearch(e.target.value)}
               value={searchTerm}
+              placeholder="Search for Movies"
             />
             <button className="input__button" onClick={(e) => handleClick(e)}>
               Search
@@ -44,8 +45,8 @@ const Search = () => {
           </form>
         </div>
         {isLoading ? (
-          <h3 style={{ marginTop: "15px", color: "white" }}>
-            No Matches Found
+          <h3 style={{ marginTop: "2rem", color: "white" }}>
+            No Matches Found : (
           </h3>
         ) : (
           <div className="posters">

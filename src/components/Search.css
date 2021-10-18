@@ -1,7 +1,7 @@
 .search {
   text-align: center;
   margin-top: 3rem;
-  color: red;
+  color: rgb(3, 231, 3);
   min-height: 93vh;
 }
 .searchMovies {
@@ -20,12 +20,13 @@
 }
 
 .input__search {
+  padding: 0.5rem 1rem;
   width: 300px;
 }
 .input__button {
   margin-top: 10px;
   width: 100px;
-  background-color: rgb(228, 4, 4);
+  background-color: rgb(3, 231, 3);
   border-radius: 3px;
   border: none;
   padding: 5px;
@@ -33,7 +34,7 @@
   font-weight: 700;
 }
 .input__button:hover {
-  background-color: rgb(194, 6, 6);
+  background-color: rgb(17, 141, 17);
   color: white;
 }
 

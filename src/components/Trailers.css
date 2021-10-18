@@ -23,7 +23,7 @@
 .button {
   margin-top: 1rem;
   border: none;
-  background-color: red;
+  background-color: rgb(3, 231, 3);
   border-radius: 3px;
   padding: 5px;
   color: white;
@@ -31,6 +31,6 @@
 }
 .button:hover {
   background-color: white;
-  color: red;
+  color: rgb(3, 231, 3);
   transition: all 0.3s;
 }

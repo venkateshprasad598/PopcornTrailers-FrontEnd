@@ -31,8 +31,8 @@ const Nav = () => {
     // <div className={`nav ${show && "nav_black"}`}></div>
     <div className="nav nav_black">
       <Link className="nav_logo" to="/">
-        <h1>MOVIE </h1>
-        <p>DATABASE</p>
+        <h1>POPCORN</h1>
+        <p>TRAILERS</p>
       </Link>
 
       <Link to="/search" className="nav_avatar">

@@ -12,7 +12,7 @@
 .title__underline {
   height: 5px;
   width: 120px;
-  background: linear-gradient(to left, red, #111);
+  background: linear-gradient(to left, rgb(3, 231, 3), #111);
   margin: 5px auto;
 }
 .row_posters {
